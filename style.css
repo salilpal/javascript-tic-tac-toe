@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif, Tahoma, Geneva, Verdana,
+    sans-serif, Geneva, Tahoma, sans-serif, "Times New Roman", Times, serif;
+}
+
+body {
+  background-color: #f1e8b8;
+  text-align: center;
+  /* display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+}
+
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+
+.box {
+  background-color: #f9e784;
+  /* background-color: ; */
+  width: 18vmin;
+  height: 18vmin;
+  border: none;
+  border-radius: 2rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  font-size: 13vmin;
+  color: #d05353;
+  /* gap: 2px; */
+}
+
+#reset-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #e58f65;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+}
+
+#new-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #e58f65;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+}
+
+#msg {
+  font-size: 5vmin;
+  color: #191919;
+}
+
+.msg-container {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.hide {
+  display: none;
+}
+/*
+F1E8B8
+F9E784
+E58F65
+D05353
+191919 
+7FD1B9
+ */
