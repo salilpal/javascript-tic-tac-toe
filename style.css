@@ -13,11 +13,6 @@ h1 {
 body {
   background-color: #f1e8b8;
   text-align: center;
-  /* display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
 }
 
 .container {
@@ -32,7 +27,6 @@ body {
   width: 60vmin;
   display: flex;
   flex-wrap: wrap;
-  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
   gap: 1.5vmin;
@@ -40,7 +34,6 @@ body {
 
 .box {
   background-color: #f9e784;
-  /* background-color: ; */
   width: 18vmin;
   height: 18vmin;
   border: none;
@@ -48,7 +41,6 @@ body {
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
   font-size: 13vmin;
   color: #d05353;
-  /* gap: 2px; */
 }
 
 #reset-btn {
@@ -86,11 +78,3 @@ body {
 .hide {
   display: none;
 }
-/*
-F1E8B8
-F9E784
-E58F65
-D05353
-191919 
-7FD1B9
- */
